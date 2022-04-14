@@ -1,4 +1,4 @@
-local Kavo = {}
+local SeeNoGamer = {}
 
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
@@ -7,7 +7,7 @@ local run = game:GetService("RunService")
 
 local Utility = {}
 local Objects = {}
-function Kavo:DraggingEnabled(frame, parent)
+function SeeNoGamer:DraggingEnabled(frame, parent)
         
     parent = parent or frame
     
@@ -126,7 +126,7 @@ local SettingsT = {
 
 }
 
-local Name = "KavoConfig.JSON"
+local Name = "SeeNoGamerConfig.JSON"
 
 pcall(function()
 
